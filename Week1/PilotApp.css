@@ -10,8 +10,8 @@ body{
 }
 
 p {
-    text-align: center; /* centers the text and inline elements like <a> and <button> */
-    line-height: 1.6;   /* improves readability */
+    text-align: center; /* centers the text */
+    line-height: 1.6;  
 }
 
 a button {
@@ -86,4 +86,5 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     background-color: cornflowerblue;
+
 }
