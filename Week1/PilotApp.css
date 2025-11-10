@@ -1,0 +1,89 @@
+body{
+   background-color: rgb(34, 33, 33);
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+p {
+    text-align: center; /* centers the text and inline elements like <a> and <button> */
+    line-height: 1.6;   /* improves readability */
+}
+
+a button {
+    margin-top: 15px;   /* adds space between text and button */
+    padding: 10px 20px;
+    background-color: azure;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #111;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+
+form{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    border: 1px solid blanchedalmond;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.row{
+    padding-bottom: 10px;
+}
+
+.error{
+    color: red;
+}
+
+input[type="submit"]{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: cornflowerblue;
+}
