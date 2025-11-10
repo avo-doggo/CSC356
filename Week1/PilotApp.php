@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="PilotApp.css">
 </head>
 <body>
-
+<!--navigation menu-->
     <nav>
         <ul>
             <li><a href="Index.php">Home</a></li>
             <li><a href="PilotApp.php">Pilot Application</a></li>
         </ul>
     </nav>
-
+<!--Header for application-->
     <h1> Mars Pilot Application </h1>
-
+<!--Pilot form-->
     <form name="appForm" onsubmit="return validateForm();" action="#" method="post">
         <div class="row">
             <label>Full Name</label>
@@ -56,5 +56,7 @@
 
         </div>
     </form>
+    <!--end pilot form-->
 </body>
+
 </html>
