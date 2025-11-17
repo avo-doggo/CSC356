@@ -1,0 +1,102 @@
+/*Jameson Brown*/
+body{
+    background-color: rgb(34, 33, 33);
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; /* moved content to top */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#marsImg {
+    text-align: center; /* centers image */
+    color: rgb(77, 76, 76);
+}
+
+p {
+    text-align: center; 
+    line-height: 1.6;   
+}
+
+a button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: azure;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a button:hover {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    border: 1px solid blanchedalmond;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.row{
+    padding-bottom: 10px;
+}
+
+.error{
+    color: red;
+}
+
+input[type="submit"]{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: cornflowerblue;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header a {
+    color: blanchedalmond;
+    align-items: center;
+}
+
+header a:hover {
+    color: cornflowerblue;
+}
+
+.countdownMain{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically centers content */
+    position: relative;
+    padding-top: 10%;
+    font-size: xx-large;
+}
