@@ -1,0 +1,222 @@
+/*Jameson Brown*/
+body{
+    background-color: rgb(34, 33, 33);
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; /* move content to top */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#marsImg {
+    text-align: center; /* centers image */
+    color: rgb(77, 76, 76);
+    text-decoration: none;
+}
+
+p {
+    text-align: center; 
+    line-height: 1.6;   
+}
+/*Home button style*/
+a button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+a button:hover {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+/*Application Style*/
+
+.error{
+    color: red;
+}
+
+#appForm {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;            /*space between fields*/
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid transparent; /*remove visible border*/
+    border-radius: 5px;
+}
+
+/*Make each label sit above its input with spacing*/
+#appForm .row {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Label styling*/
+#appForm label {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+/*Input styling*/
+#appForm input[type="text"],
+#appForm input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid blanchedalmond;
+    border-radius: 4px;
+}
+
+/*Radio button alignment*/
+#appForm .form-inline label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 0.95rem;
+}
+
+/*Submit button styling*/
+#appForm input[type="submit"] {
+    padding: 10px 14px;
+    width: 100%;
+    margin-top: 6px;
+    background-color: blanchedalmond;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.25s ease;
+}
+
+/* Hover effect */
+#appForm input[type="submit"]:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+/* Error text placement */
+#appForm .error {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    height: 1.1em;/*Prevent layout jump*/
+}
+
+/* Center form header */
+#appForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*End app style*/
+
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header a {/*navigation*/
+    color: black;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;/*Rounded border*/
+}
+
+header a:hover {
+    color: cornflowerblue;
+}
+
+.countdownMain{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Vertically centers content*/
+    position: relative;
+    padding-top: 10%;
+    font-size: xx-large;
+}
+
+/*Secure.php style*/
+.main-spaced p {
+    margin: 12px 0;
+    line-height: 1.8; 
+}
+
+/*login.php style*/
+
+#frmlogin {
+    width: 320px; 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;                  
+    padding: 15px;              
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+/*Make each label sit above its input and get a little breathing room*/
+#frmlogin div {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Ensure labels and inputs look tidy*/
+#frmlogin label {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+#frmlogin input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid blanchedalmond;
+    border-radius: 4px;
+}
+
+/*Make submit button match width and spacing*/
+#frmlogin button[type="submit"],
+#frmlogin button {
+    padding: 10px 14px;
+    width: 100%;
+    margin-top: 6px;
+    background-color: blanchedalmond;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Error text placement*/
+#frmlogin .error {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    height: 1.1em;
+}
+
+#frmlogin button:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
