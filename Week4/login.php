@@ -75,7 +75,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             <!--password-->
             <div>
                 <label for="pwdUser">Password:</label>
-                <input type="text" id="pwdUser" name="pwdUser"><!--Change to password for type-->
+                <input type="password" id="pwdUser" name="pwdUser">
                 <span id="passwordErr" class="error"></span>
             </div>
 
@@ -87,4 +87,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     </main>
     
 </body>
+
 </html>
